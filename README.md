@@ -20,6 +20,8 @@ This version is complete and to run the docker, go to `DEV/PROD workflow` part i
     
 ### With docker-compose
 
+### With docker-compose
+
 To prevent using too long command to run a container as example above, and if we want to run multiple containers, then use 
 docker-compose instead.
 - running docker-compose: docker-compose up -d —build
