@@ -17,6 +17,8 @@ This version is complete and to run the docker, go to `DEV/PROD workflow` part i
     - `-p` 3000:4000 bind port <exposed:listening-to> port
     - `-d` detached mode means the terminal can continue to write other command (run container in background)
     - `—name node-12 zs/test-node12` name `container:local name`
+    
+### With docker-compose
 
 To prevent using too long command to run a container as example above, and if we want to run multiple containers, then use 
 docker-compose instead.
